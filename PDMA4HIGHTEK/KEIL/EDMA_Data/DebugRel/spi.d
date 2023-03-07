@@ -1,0 +1,10 @@
+.\edma_data\debugrel\spi.o: ..\..\Driver\Source\SPI\spi.c
+.\edma_data\debugrel\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\edma_data\debugrel\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\edma_data\debugrel\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\wblib.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\N9H26_reg.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\wberrcode.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\wbio.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\wbtypes.h
+.\edma_data\debugrel\spi.o: ..\..\Driver\Include\N9H26_SPI.h

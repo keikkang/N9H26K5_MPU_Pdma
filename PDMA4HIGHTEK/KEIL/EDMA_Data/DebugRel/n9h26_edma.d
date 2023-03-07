@@ -1,0 +1,11 @@
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Source\EDMA\N9H26_edma.c
+.\edma_data\debugrel\n9h26_edma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\edma_data\debugrel\n9h26_edma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\edma_data\debugrel\n9h26_edma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\wblib.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\N9H26_reg.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\wberrcode.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\wbio.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\wbtypes.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\N9H26_EDMA.h
+.\edma_data\debugrel\n9h26_edma.o: ..\..\Driver\Include\DrvEDMA.h

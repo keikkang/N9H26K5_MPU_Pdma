@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: •ÏVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: K K, K, LIC=GMZI6-D7VYF-NNCAF-64RXZ-D2AW9-0ALG2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARM.DLL V5.36.0.0
+Dialog DLL:      DARMATS9.DLL V1.22.0.4
+Target DLL:      Segger\JLTAgdi.dll V1.61.0.0
+Dialog DLL:      TARMATS9.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+E:\N9H26_PDMA_SLAVE_BSP\PDMA4HIGHTEK\KEIL\EDMA.uvproj
+Project File Date:  03/07/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'DebugRel'
+compiling standalone.c...
+assembling wb_init.s...
+compiling Smpl_Pdma_SPI.c...
+compiling spi.c...
+compiling N9H26_edma.c...
+compiling DrvEDMA.c...
+..\..\Driver\Source\EDMA\DrvEDMA.c(487): warning:  #186-D: pointless comparison of unsigned integer with zero
+      if ((eDevice < eDRVEDMA_SPIMS0) || (eDevice > eDRVEDMA_RS_CODEC))
+..\..\Driver\Source\EDMA\DrvEDMA.c(1422): warning:  #550-D: variable "u32SFR"  was set but never used
+      UINT32 u32SFR, index;
+..\..\Driver\Source\EDMA\DrvEDMA.c: 2 warnings, 0 errors
+compiling main.c...
+linking...
+Program Size: Code=49848 RO-data=148 RW-data=656 ZI-data=39556  
+After Build - User command #1: fromelf.exe --bin --output "E:\N9H26_PDMA_SLAVE_BSP\PDMA4HIGHTEK\KEIL\EDMA_Data\DebugRel\EDMA.bin" "E:\N9H26_PDMA_SLAVE_BSP\PDMA4HIGHTEK\KEIL\EDMA_Data\DebugRel\EDMA.axf"
+".\EDMA_Data\DebugRel\EDMA.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

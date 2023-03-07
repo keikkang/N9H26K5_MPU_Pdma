@@ -1,0 +1,183 @@
+Dependencies for Project 'EDMA', Target 'DebugRel': (DO NOT MODIFY !)
+F (..\main.c)(0x6406EBF8)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\main.o --omf_browse .\edma_data\debugrel\main.crf --depend .\edma_data\debugrel\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\Driver\Include\N9H26.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wblib.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_reg.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wberrcode.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbio.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbtypes.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AVI.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvEDMA.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvI2CH.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_avcodec.h)(0x63EC7BD2)
+I (..\..\Driver\Include\port.h)(0x63EC7BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (..\..\Driver\Include\N9H26_version.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_Font.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_JPEG.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_USBD.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_MSC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_GNAND.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AAC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_ADC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AES.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AUR.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_BLT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_CRC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_EDMA.h)(0x63EC7BD2)
+I (..\..\Driver\Include\GNAND_Global.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_GPIO.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_I2C.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_I2S.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_KPI.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RF.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RS.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_ROT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SDIO.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SIC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SPI.h)(0x6406C568)
+I (..\..\Driver\Include\N9H26_SPU.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_VPE.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_VPOST.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_NVTFAT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\nvtfat_fat.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_PWM.h)(0x63EC7BD2)
+I (..\..\Driver\Include\ratecontrol.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RTC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SPI_SecureIC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\SPIGlue.h)(0x63EC7BD2)
+I (..\../VPOST/ASIC/sea_800x480_RGB565.dat)(0x63EC7BD2)
+F (..\Smpl_Pdma_SPI.c)(0x6406E40A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\smpl_pdma_spi.o --omf_browse .\edma_data\debugrel\smpl_pdma_spi.crf --depend .\edma_data\debugrel\smpl_pdma_spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\Driver\Include\N9H26.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wblib.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_reg.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wberrcode.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbio.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbtypes.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AVI.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvEDMA.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvI2CH.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_avcodec.h)(0x63EC7BD2)
+I (..\..\Driver\Include\port.h)(0x63EC7BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
+I (..\..\Driver\Include\N9H26_version.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_Font.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_JPEG.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_USBD.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_MSC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_GNAND.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AAC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_ADC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AES.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_AUR.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_BLT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_CRC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_EDMA.h)(0x63EC7BD2)
+I (..\..\Driver\Include\GNAND_Global.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_GPIO.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_I2C.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_I2S.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_KPI.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RF.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RS.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_ROT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SDIO.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SIC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SPI.h)(0x6406C568)
+I (..\..\Driver\Include\N9H26_SPU.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_VPE.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_VPOST.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_NVTFAT.h)(0x63EC7BD2)
+I (..\..\Driver\Include\nvtfat_fat.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_PWM.h)(0x63EC7BD2)
+I (..\..\Driver\Include\ratecontrol.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_RTC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SPI_SecureIC.h)(0x63EC7BD2)
+I (..\..\Driver\Include\SPIGlue.h)(0x63EC7BD2)
+F (..\standalone.c)(0x63EC7BD2)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\standalone.o --omf_browse .\edma_data\debugrel\standalone.crf --depend .\edma_data\debugrel\standalone.d)
+F (..\wb_init.s)(0x63EC7BD2)(--cpu ARM926EJ-S -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba--pd "__UVISION_VERSION SETA 527"--list .\edma_data\debugrel\wb_init.lst --xref -o .\edma_data\debugrel\wb_init.o --depend .\edma_data\debugrel\wb_init.d)
+F (..\..\Driver\Source\SPI\spi.c)(0x6406CF6A)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\spi.o --omf_browse .\edma_data\debugrel\spi.crf --depend .\edma_data\debugrel\spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\Driver\Include\wblib.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_reg.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wberrcode.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbio.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbtypes.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_SPI.h)(0x6406C568)
+F (..\..\Driver\Source\EDMA\N9H26_edma.c)(0x63EC7BD2)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\n9h26_edma.o --omf_browse .\edma_data\debugrel\n9h26_edma.crf --depend .\edma_data\debugrel\n9h26_edma.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\Driver\Include\wblib.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_reg.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wberrcode.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbio.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbtypes.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_EDMA.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvEDMA.h)(0x63EC7BD2)
+F (..\..\Driver\Source\EDMA\DrvEDMA.c)(0x63EC7BD2)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Driver\Include -I ..\..\VPOST\ASIC -I ..\..\Driver\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\edma_data\debugrel\drvedma.o --omf_browse .\edma_data\debugrel\drvedma.crf --depend .\edma_data\debugrel\drvedma.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (..\..\Driver\Include\wblib.h)(0x63EC7BD2)
+I (..\..\Driver\Include\N9H26_reg.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wberrcode.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbio.h)(0x63EC7BD2)
+I (..\..\Driver\Include\wbtypes.h)(0x63EC7BD2)
+I (..\..\Driver\Include\DrvEDMA.h)(0x63EC7BD2)
+F (..\..\Library\IPLib\N9H26_AAC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_ADC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_AES.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_AUR.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_BLT.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_CRC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_Font_QVGA.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_Font_VGA.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_Font_WQVGA.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_Font_WVGA.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_GIANTPLUS_GPM1006D.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_GPIO.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_H264Codec.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_I2C.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_I2S.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_JPEG.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_KPI_2x3.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_All.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_All_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_CDROM_Only.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_NAND.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_NAND_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_NAND_SD.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_NAND_SD_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_RAM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_RAM_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_SD.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_SD_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_SPI.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_MSC_SPI_CDROM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_PWM.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_RF.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_ROT.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_RS.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_RTC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SDIO.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SIC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SPI_FreeRTOS.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SPI_Secureic.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SPI_SPIToUART.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SPU.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SYS.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_SYS_FreeRTOS.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_UDC.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_UDC_Fullspeed.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_UDC_Highspeed.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_VPE.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_VPOST_FW050TFT_800x480.lib)(0x63EC7BD2)()
+F (..\..\Library\IPLib\N9H26_VPOST_LCM.lib)(0x63EC7BD2)()
