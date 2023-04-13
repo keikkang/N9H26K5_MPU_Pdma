@@ -1,0 +1,4 @@
+--create .\SPILib_Data\DebugRel\N9H26_SPI.lib
+.\spilib_data\debugrel\spi.o
+.\spilib_data\debugrel\spiflash.o
+.\spilib_data\debugrel\spiglue.o

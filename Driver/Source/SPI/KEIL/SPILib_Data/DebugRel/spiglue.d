@@ -1,0 +1,13 @@
+.\spilib_data\debugrel\spiglue.o: ..\SPIGlue.c
+.\spilib_data\debugrel\spiglue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\spilib_data\debugrel\spiglue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\spilib_data\debugrel\spiglue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\wblib.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\N9H26_reg.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\wberrcode.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\wbio.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\wbtypes.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\N9H26_SPI.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\N9H26_NVTFAT.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\nvtfat_fat.h
+.\spilib_data\debugrel\spiglue.o: ..\..\..\Include\SPIGlue.h

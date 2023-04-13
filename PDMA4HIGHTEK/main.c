@@ -97,8 +97,8 @@ int main()
 	//lcdFormat.ucVASrcFormat = DRVVPOST_FRAME_RGB565;	
 	//vpostLCMInit(&lcdFormat, (UINT32*)LoadAddr);
 
-	EDMA_Init();
-	spiInit();
+	//EDMA_Init();
+	//spiInit();
 
 	do
 	{
@@ -113,6 +113,8 @@ int main()
 		switch(u32Item) 
 		{
 			case 'S':
+			  spiInit();  
+			  EDMA_Init();
 				spiSlaveTest();
 				break;
 
@@ -155,17 +157,30 @@ void spiInit(void)
 
 		/* apb clock is 48MHz, output clock is 10MHz */
 		u32APBClk = sysGetAPBClock();
-		spiIoctl(0, SPI_SET_CLOCK, u32APBClk/1000000, 10000);
-
+		//spiIoctl(0, SPI_SET_CLOCK, u32APBClk/1000000, 48000);
+		spiIoctl(0, SPI_SET_CLOCK, 48, 30000);
+      
+		#if 0 	
 		//Startup SPI0 multi-function features, chip select using SS0
-		outpw(REG_GPDFUN1, (inpw(REG_GPDFUN1)  & ~0xFFFF0000) | 0x22220000);
+		//outpw(REG_GPDFUN1, (inpw(REG_GPDFUN1)  & ~0xFFFF0000) | 0x22220000);
 #ifdef __OPT_O2DN__		
 		outpw(REG_GPEFUN0, (inpw(REG_GPEFUN0)  & ~(MF_GPE0 |MF_GPE1)) | 0x33);
 #else
 		outpw(REG_GPEFUN1, (inpw(REG_GPEFUN1)  & ~(MF_GPE8 |MF_GPE9)) | 0x44);
 #endif
-
-		if(!spiOpen(&HostCPU_Slave));
+     #endif
+		
+    while(1){
+		  if(!spiOpen(&HostCPU_Slave));
+			  break;
+		}
+		
+		outpw(REG_SPI0_SSR, 	0x00000018);								
+	  //outpw(REG_SPI0_CNTRL, 0x00040440);
+		outpw(REG_SPI0_CNTRL, 0x00040040);
+		
+		outpw(REG_SPI0_CNTRL, inpw(REG_SPI0_CNTRL)|0x01);	// Waiting for the slave select input and serial clock input signals from the external master device as set GO_BUSY = 1
+		
 		
 }
 

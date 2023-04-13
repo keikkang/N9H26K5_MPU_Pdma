@@ -1,0 +1,10 @@
+.\spilib_data\debugrel\spiflash.o: ..\spiflash.c
+.\spilib_data\debugrel\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\spilib_data\debugrel\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\spilib_data\debugrel\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\wblib.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\N9H26_reg.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\wberrcode.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\wbio.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\wbtypes.h
+.\spilib_data\debugrel\spiflash.o: ..\..\..\Include\N9H26_SPI.h

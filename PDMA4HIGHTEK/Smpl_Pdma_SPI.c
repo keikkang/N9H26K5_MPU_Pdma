@@ -10,13 +10,14 @@
 #include <string.h>
 #include "N9H26.h"
 
-#define TEST_SIZE 16
+#define TEST_SIZE 32
 #if defined(__GNUC__)
 __attribute__((aligned(4096))) UINT8 WriteBuffer[TEST_SIZE];
 __attribute__((aligned(4096))) UINT8 ReadBuffer[TEST_SIZE];
 #else
 __align(4096) UINT8 WriteBuffer[TEST_SIZE];
-__align(4096) UINT8 ReadBuffer[TEST_SIZE];
+//__align(4096) UINT8 ReadBuffer[TEST_SIZE];
+__align(4096) UINT8 ReadBuffer[TEST_SIZE] = 0;
 #endif
 
 static INT32 g_PdmaCh = 0;
@@ -67,7 +68,7 @@ int initSPIPDMA_Read(UINT32 dest_addr, UINT32 dma_length)
 	EDMA_SetAPB(g_PdmaCh,			//int channel, 
 						eDRVEDMA_SPIMS0,			//E_DRVEDMA_APB_DEVICE eDevice, 
 						eDRVEDMA_READ_APB,		//E_DRVEDMA_APB_RW eRWAPB, 
-						eDRVEDMA_WIDTH_32BITS);	//E_DRVEDMA_TRANSFER_WIDTH eTransferWidth	
+						eDRVEDMA_WIDTH_8BITS);	//E_DRVEDMA_TRANSFER_WIDTH eTransferWidth	
 
 	EDMA_SetupHandlers(g_PdmaCh, 		//int channel
 						eDRVEDMA_BLKD, 			//int interrupt,	
@@ -496,7 +497,7 @@ void SPIFlashQuadTest(void)
 void spiSlaveTest(void)
 {
 	unsigned char *pDst;
-	UINT32 i;
+	UINT32 i = 0;
 	UINT32 len;
   UINT32 u32len;
 	
@@ -508,16 +509,29 @@ void spiSlaveTest(void)
 		u32len = (len/4)*4;
 	
   pDst = (UINT8 *)((UINT32)ReadBuffer | NON_CACHE_BIT);
+	sysprintf("Memory Buffer address 0x%P \n", pDst);
+	//pDst = ReadBuffer;
 	
 	initSPIPDMA_Read((UINT32)pDst, u32len);
+	
+	//spiEnable(0);
 	
 	EDMA_Trigger(g_PdmaCh);
 	outp32(REG_SPI0_EDMA, (inp32(REG_SPI0_EDMA) & ~0x03) | (EDMA_RW | EDMA_GO));	
 	outp32(REG_SPI0_CNTRL, inp32(REG_SPI0_CNTRL) |GO_BUSY);	    
 	
 	while(g_bPdmaInt == FALSE)
-    sysprintf("waiting pdma int\n");
+	{
+		;
+	}
+    //sysprintf("waiting pdma int\n");
 	
+	sysprintf("Memory Buffer address 0x%P \n", pDst);
+	
+	for(i=0;i<TEST_SIZE;i++){
+		sysprintf("Value[%d] : 0x%X \n", i,*(pDst+i));
+	}
+
 	g_bPdmaInt = FALSE;
 
 	EDMA_Free(g_PdmaCh); 
@@ -526,8 +540,7 @@ void spiSlaveTest(void)
 		
 	spiSetByteEndin(0, eDRVSPI_DISABLE);
 	
-	for(i=0;i<TEST_SIZE;i++)
-		sysprintf("Value[%d] : 0x%X \n", i,*(pDst++));
+
   
 	return;
 

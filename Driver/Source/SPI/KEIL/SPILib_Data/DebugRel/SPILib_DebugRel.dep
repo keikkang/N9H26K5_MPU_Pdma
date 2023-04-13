@@ -1,0 +1,35 @@
+Dependencies for Project 'SPILib', Target 'DebugRel': (DO NOT MODIFY !)
+F (..\spi.c)(0x642E20AA)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\spilib_data\debugrel\spi.o --omf_browse .\spilib_data\debugrel\spi.crf --depend .\spilib_data\debugrel\spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\..\Include\wblib.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_reg.h)(0x6406F7C2)
+I (..\..\..\Include\wberrcode.h)(0x6406F7C2)
+I (..\..\..\Include\wbio.h)(0x6406F7C2)
+I (..\..\..\Include\wbtypes.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_SPI.h)(0x6406F7C2)
+F (..\spiflash.c)(0x6406F7C2)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\spilib_data\debugrel\spiflash.o --omf_browse .\spilib_data\debugrel\spiflash.crf --depend .\spilib_data\debugrel\spiflash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\..\Include\wblib.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_reg.h)(0x6406F7C2)
+I (..\..\..\Include\wberrcode.h)(0x6406F7C2)
+I (..\..\..\Include\wbio.h)(0x6406F7C2)
+I (..\..\..\Include\wbtypes.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_SPI.h)(0x6406F7C2)
+F (..\SPIGlue.c)(0x6406F7C2)(-c --cpu ARM926EJ-S -g -O0 --apcs=interwork -I ..\..\..\Include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Toshiba-D__UVISION_VERSION="527"-o .\spilib_data\debugrel\spiglue.o --omf_browse .\spilib_data\debugrel\spiglue.crf --depend .\spilib_data\debugrel\spiglue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
+I (..\..\..\Include\wblib.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_reg.h)(0x6406F7C2)
+I (..\..\..\Include\wberrcode.h)(0x6406F7C2)
+I (..\..\..\Include\wbio.h)(0x6406F7C2)
+I (..\..\..\Include\wbtypes.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_SPI.h)(0x6406F7C2)
+I (..\..\..\Include\N9H26_NVTFAT.h)(0x6406F7C2)
+I (..\..\..\Include\nvtfat_fat.h)(0x6406F7C2)
+I (..\..\..\Include\SPIGlue.h)(0x6406F7C2)
+F (..\spiflash_freertos.c)(0x6406F7C2)()
